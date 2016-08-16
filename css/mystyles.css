@@ -1,0 +1,25 @@
+header {
+  width: 100%;
+  background-color: #0f2439;
+  min-height: 150px;
+}
+#usu-logo {
+  margin: 15px auto 15px auto;
+  width: 100%
+}
+#links-container {
+  text-align: right;
+}
+.menu-links {
+  color: white;
+  font-size: 11px;
+}
+
+
+
+
+/*#usu-logo {
+  margin: 15px auto 15px auto;
+  border: 2px solid white;
+  width: 100%
+}*/
