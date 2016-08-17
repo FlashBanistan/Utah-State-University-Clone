@@ -13,6 +13,8 @@
     <link href="css/mystyles.css" rel="stylesheet">
 </head>
 
+<!-- HEADER -->
+<!-- ====================================================================== -->
 <body>
   <header>
     <div class="container">
@@ -25,7 +27,7 @@
           <a class="menu-links" href="#">MyUSU</a>
           <a class="menu-links" href="#">Directory</a>
         </div>
-        <div class="input-group">
+        <div class="input-group" id="searchbox-container">
           <input type="text" class="form-control">
           <span class="input-group-btn">
             <button class="btn btn-default"type="button">Search</button>
@@ -35,6 +37,127 @@
     </div>
   </header>
 
+<!-- MENU-BAR -->
+<!-- ====================================================================== -->
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed pull-left"
+        data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+        aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <button class="btn btn-primary center-block pull-right" id="btn-questions" type="button">Questions?</button>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"
+                 aria-hidden="true"></span> Home</a></li>
+            <li>
+              <a href="aboutus.html">
+                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About
+              </a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                 role="button" aria-haspopup="true" aria-expanded="false">
+                 <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+                 Menu <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Appetizers</a></li>
+                    <li><a href="#">Main Courses</a></li>
+                    <li><a href="#">Desserts</a></li>
+                    <li><a href="#">Drinks</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header">Specials</li>
+                    <li><a href="#">Lunch Buffet</a></li>
+                    <li><a href="#">Weekend Brunch</a></li>
+                </ul>
+            </li>
+            <li>
+              <a href="contactus.html"><i class="fa fa-envelope-o"></i> Contact</a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- CAROUSEL -->
+  <!-- ==================================================================== -->
+  <div class="carousel slide" id="myCarousel" data-ride="carousel" data-interval="5000">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/carousel/residential-campus.jpg" alt="...">
+        <div class="carousel-caption">
+        	<h3>UTAH'S LARGEST RESIDENTIAL CAMPUS</h3>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/carousel/equine-research.jpg" alt="...">
+        <div class="carousel-caption">
+        	<h3>AGGIES LEARN BY DOING</h3>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/carousel/best-college-town.jpg" alt="...">
+        <div class="carousel-caption">
+        	<h3>AGGIES MAKE LOGAN A BEST COLLEGE TOWN</h3>
+        </div>
+      </div>
+      <div class="item">
+        <img src="images/carousel/aggies-are-everywhere.jpg" alt="...">
+        <div class="carousel-caption">
+        	<h3>AGGIES ARE EVERYWHERE</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+
+  <!-- ACADEMICS -->
+  <!-- ==================================================================== -->
+  <div class="container" id="academics-container">
+    <div class="col-xs-12">
+      <h2 class="row row-content"><i class="fa fa-graduation-cap"></i> Academics</h2>
+      <p class="row row-content">Utah State professors are filled with PASSION for what they do.
+        Dedicated instructors work closely with students to teach and inspire every day.
+      </p>
+      <span>
+        <a href="#" class="row row-content" id="row-items"><i class="fa fa-angle-right"></i>  Overview</a>
+        <a href="#" class="row row-content" id="row-items"><i class="fa fa-angle-right"></i>  Colleges and Schools</a>
+        <a href="#" class="row row-content" id="row-items"><i class="fa fa-angle-right"></i>  Academic Departments</a>
+      </span>
+    </div>
+
+    <div class="col-xs-12">
+      <h2 class="row row-content"><i class="fa fa-search"></i> Find a Degree</h2>
+      <div class="input-group" id="searchbox-container">
+        <input type="text" class="form-control">
+        <span class="input-group-btn">
+          <button class="btn btn-default"type="button">Search</button>
+        </span>
+      </div>
+    </div>
+  </div>
 
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
