@@ -44,6 +44,9 @@ header {
 }
 #academics-container {
   background-color: #eff2f7;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
 }
 #row-items {
   margin: 0px;

@@ -19,20 +19,21 @@
   <header>
     <div class="container">
       <div class="row row-content">
-        <div class="col-xs-12 col-lg-4">
+        <div class="col-xs-12 col-md-8">
           <img src="images/horizontal_logo.png" alt="logo" id="usu-logo"/>
         </div>
-        <div class="col-xs-12" id="links-container">
+        <div class="col-xs-12 col-md-4" id="links-container">
           <a class="menu-links" href="#"><i class="fa fa-home"></i> A-Z index</a>
           <a class="menu-links" href="#">MyUSU</a>
           <a class="menu-links" href="#">Directory</a>
+          <div class="input-group" id="searchbox-container">
+            <input type="text" class="form-control">
+            <span class="input-group-btn">
+              <button class="btn btn-default"type="button">Search</button>
+            </span>
+          </div>
         </div>
-        <div class="input-group" id="searchbox-container">
-          <input type="text" class="form-control">
-          <span class="input-group-btn">
-            <button class="btn btn-default"type="button">Search</button>
-          </span>
-        </div>
+
       </div>
     </div>
   </header>
@@ -136,7 +137,7 @@
   <!-- ACADEMICS -->
   <!-- ==================================================================== -->
   <div class="container" id="academics-container">
-    <div class="col-xs-12">
+    <div class="col-xs-12 col-md-6">
       <h2 class="row row-content"><i class="fa fa-graduation-cap"></i> Academics</h2>
       <p class="row row-content">Utah State professors are filled with PASSION for what they do.
         Dedicated instructors work closely with students to teach and inspire every day.
@@ -148,7 +149,9 @@
       </span>
     </div>
 
-    <div class="col-xs-12">
+    <!-- FIND A DEGREE -->
+    <!-- ================================================================== -->
+    <div class="col-xs-12 col-md-6">
       <h2 class="row row-content"><i class="fa fa-search"></i> Find a Degree</h2>
       <div class="input-group" id="searchbox-container">
         <input type="text" class="form-control" placeholder="e.g., biology, history, etc.">
@@ -166,7 +169,7 @@
   <!-- SPOTLIGHT -->
   <!-- ==================================================================== -->
   <div class="container">
-    <div class="col-xs-12">
+    <div class="col-xs-12 col-md-3">
       <h2 style="border-bottom: 1px solid lightgrey; padding-bottom: 5px">Spotlight</h2>
       <div>
         <img class="img-responsive" src="images/cultivate-spring.jpg" alt="..." />
@@ -176,6 +179,8 @@
         College of Agriculture and Applied Sciences and celebrates the "Aggie" spirit....
         <a href="#">Read more</a>
       </p>
+    </div>
+    <div class="col-xs-12 col-md-3">
       <div>
         <img class="img-responsive" src="images/old-main.jpg" alt="..." />
       </div>
@@ -185,6 +190,7 @@
         an absolute commitment to the well being of our students...
         <a href="#">Read more</a>
       </p>
+    </div>
       <div>
         <img class="img-responsive" src="images/chass-harbor.jpg" alt="..." />
       </div>
@@ -193,7 +199,7 @@
         Political science professor Colin Flint 'offers a different way of thinking about war'...
         <a href="#">Read more</a>
       </p>
-    </div>
+
   </div>
 
   <!-- HEADLINES -->
