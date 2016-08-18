@@ -117,3 +117,8 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
