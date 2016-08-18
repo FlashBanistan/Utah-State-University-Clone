@@ -18,22 +18,24 @@
   <!-- ==================================================================== -->
   <header>
     <div class="container">
-      <div class="row row-content">
-        <div class="col-xs-12 col-md-8">
-          <img src="images/horizontal_logo.png" alt="logo" id="usu-logo"/>
+      <div class="row">
+        <div class="col-md-7">
+          <img class="img-responsive" src="images/horizontal_logo.png" alt="logo"/>
         </div>
-        <div class="col-xs-12 col-md-4" id="links-container">
-          <a class="menu-links" href="#"><i class="fa fa-home"></i> A-Z index</a>
-          <a class="menu-links" href="#">MyUSU</a>
-          <a class="menu-links" href="#">Directory</a>
-          <div class="input-group" id="searchbox-container">
+        <div class="col-md-5" style="display: flex; flex-direction: column; align-items: flex-end">
+          <span class="header-group">
+            <a class="header-links" href="#"><i class="fa fa-home"></i> A-Z index</a>
+            <a class="header-links" href="#">MyUSU</a>
+            <a class="header-links" href="#">Directory</a>
+          </span>
+          <div class="input-group header-group">
             <input type="text" class="form-control">
             <span class="input-group-btn">
-              <button class="btn btn-default"type="button">Search</button>
+              <button class="btn btn-default" type="button">Search</button>
             </span>
           </div>
+          <button class="hidden-xs header-group" type="button">Questions?</button>
         </div>
-
       </div>
     </div>
   </header>

@@ -3,6 +3,8 @@ header {
   background-color: #0f2439;
   min-height: 150px;
   margin-bottom: 0px;
+  display: flex;
+  align-items: center;
 }
 #usu-logo {
   margin: 15px auto 15px auto;
@@ -12,7 +14,10 @@ header {
   text-align: right;
   margin-bottom: 15px;
 }
-.menu-links {
+.header-group {
+  margin-bottom: 5px;
+}
+.header-links {
   color: white;
   font-size: 12px;
   margin-left: 15px;
