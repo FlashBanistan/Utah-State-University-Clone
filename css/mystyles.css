@@ -68,9 +68,11 @@ nav {
 #academics-container {
   background-color: #eff2f7;
   width: 100%;
-  padding-left: 65px;
-  padding-right: 65px;
-
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#row-items {
+  margin: 0px;
 }
 .headlines-items {
   color: black;
