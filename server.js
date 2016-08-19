@@ -6,6 +6,6 @@ var app = express();
 app.use(express.static(__dirname + '/public'));
 
 var port = serverConfig.serverPort;
-app.listen(port, function(){
-  console.log('Listening on port ', port);
+app.listen(process.env.PORT || port, function(){
+  console.log('Listening');
 });
