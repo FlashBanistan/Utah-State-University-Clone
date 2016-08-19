@@ -67,13 +67,10 @@ nav {
 }
 #academics-container {
   background-color: #eff2f7;
-  margin-left: 0;
-  margin-right: 0;
-  
   width: 100%;
-}
-#row-items {
-  margin: 0px;
+  padding-left: 65px;
+  padding-right: 65px;
+
 }
 .headlines-items {
   color: black;
@@ -140,6 +137,9 @@ hr {
   border: 0;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+li {
+  list-style: none;
 }
 
 
