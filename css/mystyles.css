@@ -68,8 +68,8 @@ nav {
 #academics-container {
   background-color: #eff2f7;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 #row-items {
   margin: 0px;
@@ -158,6 +158,12 @@ li {
 }
 
 @media only screen and (min-width: 1000px) {
+  #academics-container {
+    background-color: #eff2f7;
+    width: 100%;
+    padding-left: 115px;
+    padding-right: 115px;
+  }
   .item {
     width: 100%;
     min-height: 300px;
