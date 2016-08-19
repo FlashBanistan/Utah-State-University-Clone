@@ -18,23 +18,23 @@
   <!-- ==================================================================== -->
   <header>
     <div class="container">
-      <div class="row">
-        <div class="col-md-7">
+      <div class="row vertical-align">
+        <div class="col-xs-12 col-md-7">
           <img class="img-responsive" src="images/horizontal_logo.png" alt="logo"/>
         </div>
-        <div class="col-md-5" style="display: flex; flex-direction: column; align-items: flex-end">
+        <div class="col-xs-12 col-md-5" style="display: flex; flex-direction: column; align-items: flex-end;">
           <span class="header-group">
             <a class="header-links" href="#"><i class="fa fa-home"></i> A-Z index</a>
             <a class="header-links" href="#">MyUSU</a>
             <a class="header-links" href="#">Directory</a>
           </span>
           <div class="input-group header-group">
-            <input type="text" class="form-control">
+            <input type="text" class="form-control pull-right" id="hdr-search">
             <span class="input-group-btn">
               <button class="btn btn-default" type="button">Search</button>
             </span>
           </div>
-          <button class="hidden-xs header-group" type="button">Questions?</button>
+          <button class="hidden-xs hidden-sm header-group btn btn-help" id="hdr-button" type="button">Questions?</button>
         </div>
       </div>
     </div>
@@ -43,9 +43,10 @@
 <!-- NAVBAR -->
 <!-- ====================================================================== -->
 <nav class="navbar navbar-default navbar-static-top" role="navigation">
-  <div class="container">
+  <div class="container" style="margin: 0; padding: 0; width: 100%;">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+      <button class="navbar-toggle collapsed pull-right  header-group btn btn-help" id="hdr-button" type="button">Questions?</button>
+      <button class="navbar-toggle collapsed pull-left" type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -53,7 +54,7 @@
       </button>
     </div>
     <div class="navbar-collapse collapse" id="navbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav" style="margin-left: 70px;">
         <li><a href="#">About <i class="fa fa-angle-down"></i></a></li>
         <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Admission <i class="fa fa-angle-down"></i></a>
           <ul class="dropdown-menu">
@@ -67,6 +68,8 @@
         <li><a href="#">Research <i class="fa fa-angle-down"></i></a></li>
         <li><a href="#">Campuses <i class="fa fa-angle-down"></i></a></li>
         <li><a href="#">Extension</a></li>
+      </ul>
+      <ul class="nav navbar-nav pull-right" style="margin-right: 70px;">
         <li><a href="#"> Info for <i class="fa fa-angle-down"></i></a></li>
       </ul>
     </div>
