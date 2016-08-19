@@ -69,6 +69,7 @@ nav {
   background-color: #eff2f7;
   margin-left: 0;
   margin-right: 0;
+  
   width: 100%;
 }
 #row-items {
@@ -140,7 +141,6 @@ hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-
 
 
 @media (max-width: 767px) {
