@@ -145,6 +145,8 @@ li {
 }
 
 
+
+
 @media (max-width: 767px) {
   .row.vertical-align {
       display: block; /* turn off the flexible box layout */
@@ -152,9 +154,7 @@ li {
   #hdr-search {
     width: 100%;
   }
-  .item {
 
-  }
 }
 
 @media only screen and (min-width: 1000px) {
