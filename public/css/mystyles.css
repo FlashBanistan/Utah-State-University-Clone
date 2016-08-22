@@ -60,6 +60,10 @@ nav {
 .navbar-toggle {
   margin-left: 15px;
 }
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0px;
+    margin-left: 0px;
+}
 #btn-questions {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -165,10 +169,11 @@ li {
   }
   .item {
     width: 100%;
-    min-height: 450px;
+    min-height: 400px;
     overflow: hidden;
   }
   .item img {
+    min-height: 400px;
     width: 100%;
     position:absolute;
     top:50%;
